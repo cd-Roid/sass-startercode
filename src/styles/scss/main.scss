@@ -1,27 +1,6 @@
-@import "reset";
-@import "fonts";
-@import "variables";
-@import "icons";
-@import "base";
-@import "components";
-
-$darkest: hsla(0, 0, 0, 100);
-$lightest: hsla(0, 0, 100, 100);
-
-body {
-  background-color: $darkest;
-  color: $lightest;
-}
-
-.marginalie {
-  background-color: $lightest;
-  color: $darkest;
-  font-family: Raleway;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: 20rem;
-  float: left;
-  margin-left: -42%;
-  margin-bottom: 0;
-  text-align: right;
-}
+@import 'reset';
+@import 'fonts';
+@import 'variables';
+@import 'icons';
+@import 'base';
+@import 'components';

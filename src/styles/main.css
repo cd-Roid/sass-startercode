@@ -106,24 +106,37 @@ table {
   font-weight: 600;
   src: url(../assets/fonts/PT_Serif/PTSerif-Bold.ttf); }
 
-html, body {
-  font-family: PTsans;
-  font-size: 16px;
-  line-height: 140%;
-  font-weight: 300;
-  padding: 1em;
-  hyphens: auto;
-  color: #444; }
-
+/* Sizes
+Using Lucas Numbers 1, 3, 4, 7, 11, 18, 29, 47, 76, 
+---------------------------------------------------------------------------- */
+/* Font Properties
+---------------------------------------------------------------------------- */
+/* Font Weights
+---------------------------------------------------------------------------- */
+/* Line Heights
+---------------------------------------------------------------------------- */
+/* Colors
+---------------------------------------------------------------------------- */
+/* Functional Properties
+---------------------------------------------------------------------------- */
 * {
   box-sizing: border-box; }
+
+html, body {
+  font-family: PTsans;
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: 400;
+  padding: 18px;
+  hyphens: auto;
+  color: #666; }
 
 main {
   max-width: 50rem;
   margin-left: 20rem; }
 
 h1, h2, h3, h4, p, blockquote {
-  margin-bottom: 1.4em; }
+  margin-bottom: 29px; }
 
 blockquote {
   font-family: PTserif;
@@ -138,20 +151,21 @@ blockquote:after {
   padding-left: 0.1em; }
 
 h1, h2, h3, h4 {
-  line-height: 110%;
-  font-weight: 600; }
+  line-height: 100%;
+  font-weight: 600;
+  color: #f0b505; }
 
 h1 {
-  font-size: 2rem; }
+  font-size: 47px; }
 
 h2 {
-  font-size: 1.4rem; }
+  font-size: 29px; }
 
 h3 {
-  font-size: 1.2rem; }
+  font-size: 18px; }
 
 section {
-  margin-bottom: 2em; }
+  margin-bottom: 29px; }
 
 .marginalie {
   font-family: Raleway;
@@ -160,22 +174,6 @@ section {
   width: 20rem;
   float: left;
   margin-left: -20rem;
-  margin-bottom: 0;
-  text-align: right; }
-
-body {
-  background-color: black;
-  color: white; }
-
-.marginalie {
-  background-color: white;
-  color: black;
-  font-family: Raleway;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: 20rem;
-  float: left;
-  margin-left: -42%;
   margin-bottom: 0;
   text-align: right; }
 
