@@ -5,6 +5,60 @@
   width: 20rem;
   float: left;
   margin-left: -20rem;
-  margin-bottom: 0;
+ 
   text-align: right;
+border-left:  3px solid  $red; 
+}
+
+.header-background{
+    background-image: url(/src/images/NGC_2818_by_the_Hubble_Space_Telescope.jpg);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    margin-bottom: $m;
+
+
+  &__headline{
+    color: $light;
+    align-content: center;
+    box-shadow: (0,0,0,20px)
+    }
+}
+
+.main-content{
+  background-color: $lightest;
+  max-width: 50rem;
+  margin-left: 20rem;
+  padding: $m;
+}
+
+@media(max-width: 360px ){
+  .header-background{
+    width: 100vw;
+    height: 25vh;
+    background-size: cover;
+
+    &__headline{
+      font-size: $s;
+    }
+  }
+
+  .main-content{
+    background-color: $lightest;
+    max-width: 100vw;
+  }
+
+  .marginalie{
+    font-family: Raleway;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 20rem;
+    float: left;
+    text-align: right;
+  border-left:  3px solid  $red; 
+
+  }
 }

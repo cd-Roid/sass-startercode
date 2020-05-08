@@ -8,15 +8,10 @@ html, body{
   font-size: $m;
   line-height: $lh-default;
   font-weight: $fw-normal;
-  padding: $m;
   hyphens: auto;
   color: $text-color;
 }
 
-main{
-  max-width: 50rem;
-  margin-left: 20rem;
-}
 
 h1, h2, h3, h4, p, blockquote{
   margin-bottom: $l;
@@ -60,3 +55,4 @@ h3{
 section{
   margin-bottom: $l;
 }
+

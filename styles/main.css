@@ -201,7 +201,14 @@ section {
       font-size: 11px; }
   .main-content {
     background-color: #fff;
-    max-width: 100vw;
-    padding: 18px; } }
+    max-width: 100vw; }
+  .marginalie {
+    font-family: Raleway;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 20rem;
+    float: left;
+    text-align: right;
+    border-left: 3px solid #f15565; } }
 
 /*# sourceMappingURL=main.css.map */
